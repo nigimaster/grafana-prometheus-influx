@@ -9,7 +9,6 @@ ADD yum.repo /etc/yum.repos.d/
 RUN yum update -y && \
     yum install -y epel-release && \
     yum install -y  python3-setuptools && \
-    yum-utils which && \
     yum -y install python3-pip && \
     yum clean all
 RUN yum -y install git influxdb grafana
