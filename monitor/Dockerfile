@@ -1,4 +1,4 @@
-FROM grafana/grafana:latest
+FROM centos
 
 EXPOSE 3000 9090 8083 8086
 
